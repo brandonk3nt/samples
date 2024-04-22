@@ -1,0 +1,17 @@
+{
+  "name": "test-prime",
+  "version": "1.0.0",
+  "description": "Checks if a number is a prime number.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "concurrently \"npm run watch\" \"nodemon build/index.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
